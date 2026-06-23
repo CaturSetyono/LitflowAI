@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LitFlow AI — Discover what hasn't been researched yet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="LitFlow AI is an AI-native research copilot that turns a single research topic into a structured literature review on the Anna AI platform."
+    />
+    <link rel="icon" type="image/png" href="public/litflow-logo.png" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="landing.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header class="header">
+      <div class="container nav">
+        <a href="#" class="logo-container">
+          <img
+            src="public/litflow-logo.png"
+            alt="LitFlow AI"
+            class="logo-img"
+            width="36"
+            height="36"
+          />
+          <span class="logo-text">LitFlow AI</span>
+        </a>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#pipeline" class="nav-link">How it Works</a></li>
+            <li><a href="#docs" class="nav-link">Documentation</a></li>
+            <li>
+              <a
+                href="https://anna.partners"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn-primary"
+                >Open in Anna</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span class="dot"></span> Native Anna App Ecosystem
+          </div>
+          <h1 class="hero-title">
+            Discover What Hasn't Been Researched Yet.
+          </h1>
+          <p class="hero-desc">
+            LitFlow AI is an AI-native research copilot that turns a single
+            topic into a structured literature review — with a relentless focus
+            on surfacing <strong>research gaps</strong>.
+          </p>
+          <div class="hero-actions">
+            <a
+              href="https://anna.partners"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-primary"
+              >Get LitFlow on Anna</a
+            >
+            <a href="#docs" class="btn btn-secondary">View Documentation</a>
+          </div>
+        </div>
+        <div class="hero-preview">
+          <img
+            src="litflow-run-success.png"
+            alt="LitFlow AI App Interface Running on Anna"
+            class="hero-img"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Features Section -->
+    <section id="about" class="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Features</span>
+          <h2 class="section-title">A Gap-First Research Workflow</h2>
+          <p class="section-desc">
+            Instead of simply asking "what has been researched?", LitFlow AI helps
+            you answer "what should be researched next?"
+          </p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🔍</div>
+            <h3 class="feature-title">No Keys Needed</h3>
+            <p class="feature-desc">
+              All AI stages run through the secure Host API
+              <code>anna.llm.complete</code>. No API keys are stored —
+              completions run on your signed-in Anna account model.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔄</div>
+            <h3 class="feature-title">Graceful Fallbacks</h3>
+            <p class="feature-desc">
+              Source discovery fetches papers directly via CORS-enabled
+              CrossRef and falls back gracefully if arXiv request boundaries are
+              throttled.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📑</div>
+            <h3 class="feature-title">Structured Syntheses</h3>
+            <p class="feature-desc">
+              Generates clean, citation-grounded literature reviews in Markdown,
+              ready to export or copy into your academic documents.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pipeline / How it Works -->
+    <section id="pipeline" class="pipeline">
+      <div class="container pipeline-grid">
+        <div class="pipeline-left">
+          <span class="section-subtitle">Process</span>
+          <h2 class="section-title">The 5-Stage Literature-Review Engine</h2>
+          <p class="hero-desc" style="margin-top: 16px">
+            LitFlow AI orchestrates a sequential state-machine pipeline directly
+            within a secure, responsive iframe in your Anna workspace.
+          </p>
+        </div>
+        <div class="pipeline-right">
+          <div class="pipeline-list">
+            <div class="pipeline-item">
+              <div class="pipeline-num">1</div>
+              <div class="pipeline-content">
+                <h4>Research Planning</h4>
+                <p>
+                  Expands your initial topic into primary research questions,
+                  keywords, and a targeted search strategy.
+                </p>
+              </div>
+            </div>
+            <div class="pipeline-item">
+              <div class="pipeline-num">2</div>
+              <div class="pipeline-content">
+                <h4>Source Discovery</h4>
+                <p>
+                  Pulls metadata, abstracts, and citations from CrossRef and
+                  arXiv directly from the app window.
+                </p>
+              </div>
+            </div>
+            <div class="pipeline-item">
+              <div class="pipeline-num">3</div>
+              <div class="pipeline-content">
+                <h4>Insight Extraction</h4>
+                <p>
+                  Leverages batched LLM calls to extract methodologies, key
+                  findings, and limitations for each paper.
+                </p>
+              </div>
+            </div>
+            <div class="pipeline-item">
+              <div class="pipeline-num">4</div>
+              <div class="pipeline-content">
+                <h4>Gap Discovery</h4>
+                <p>
+                  Clusters the corpus into thematic groups and extracts
+                  over-researched, under-explored, and contradictory areas.
+                </p>
+              </div>
+            </div>
+            <div class="pipeline-item">
+              <div class="pipeline-num">5</div>
+              <div class="pipeline-content">
+                <h4>Literature Review</h4>
+                <p>
+                  Synthesizes findings into a final, structured literature review,
+                  linked to inline references.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="docs" class="docs-section">
+      <div class="container docs-grid">
+        <aside class="docs-nav">
+          <h3 class="docs-nav-title">Documentation</h3>
+          <ul class="docs-nav-list">
+            <li>
+              <a href="#doc-use-anna" class="docs-nav-link active"
+                >Using in Anna AI</a
+              >
+            </li>
+            <li>
+              <a href="#doc-prereqs" class="docs-nav-link"
+                >Prerequisites</a
+              >
+            </li>
+            <li>
+              <a href="#doc-local" class="docs-nav-link">Local Development</a>
+            </li>
+            <li>
+              <a href="#doc-commands" class="docs-nav-link">CLI Commands</a>
+            </li>
+          </ul>
+        </aside>
+
+        <main class="docs-content">
+          <!-- Doc Block 1 -->
+          <div id="doc-use-anna" class="docs-block">
+            <h3>🚀 Using LitFlow AI in Anna AI Platform</h3>
+            <p>
+              LitFlow AI is packaged as a native <strong>Anna App</strong>. To run
+              or install the application as a public user:
+            </p>
+            <ul>
+              <li>
+                Sign in to your account at
+                <a
+                  href="https://anna.partners"
+                  target="_blank"
+                  rel="noreferrer"
+                  style="color: var(--accent-primary); text-decoration: underline"
+                  >https://anna.partners</a
+                >.
+              </li>
+              <li>
+                Go to the <strong>App Store</strong> (or Apps marketplace) and
+                search for <code>litflow-ai</code>.
+              </li>
+              <li>Click <strong>Install App</strong> on your profile.</li>
+              <li>
+                Open the app inside your workspace, authorize the
+                <strong>LLM Completion</strong> permission when prompted, and
+                start typing your research topics!
+              </li>
+            </ul>
+          </div>
+
+          <!-- Doc Block 2 -->
+          <div id="doc-prereqs" class="docs-block">
+            <h3>⚙️ Prerequisites for Developers</h3>
+            <p>
+              If you want to clone this repository, run it locally, or contribute
+              to the codebase, you'll need the following environment:
+            </p>
+            <ul>
+              <li><strong>Node.js</strong>: Version 22.0.0 or higher.</li>
+              <li>
+                <strong>Anna CLI</strong>: The official command-line interface.
+              </li>
+            </ul>
+            <div class="code-wrapper">
+              <div class="code-header">
+                <span class="code-lang">bash</span>
+                <button
+                  class="btn-copy"
+                  onclick="copyToClipboard('npm install -g @anna-ai/cli')"
+                >
+                  Copy
+                </button>
+              </div>
+              <pre><code><span class="highlight-keyword">npm</span> install -g @anna-ai/cli</code></pre>
+            </div>
+          </div>
+
+          <!-- Doc Block 3 -->
+          <div id="doc-local" class="docs-block">
+            <h3>💻 Local Development Setup</h3>
+            <p>
+              Run a local environment connected directly to your Anna account and
+              model endpoint to test live iterations:
+            </p>
+            <div class="code-wrapper">
+              <div class="code-header">
+                <span class="code-lang">bash</span>
+                <button class="btn-copy" onclick="copyToClipboard('setup-commands')">
+                  Copy
+                </button>
+              </div>
+              <pre id="setup-commands"><code><span class="highlight-comment"># 1. Login to the platform</span>
+<span class="highlight-keyword">anna-app</span> login --host https://anna.partners
+
+<span class="highlight-comment"># 2. Validate the bundle schema against manifest rules</span>
+<span class="highlight-keyword">npm</span> run validate
+
+<span class="highlight-comment"># 3. Start the local server</span>
+<span class="highlight-keyword">anna-app</span> dev</code></pre>
+            </div>
+            <p>
+              Once started, open the local developer URL (usually
+              <code>http://localhost:5180</code>) in your browser.
+            </p>
+          </div>
+
+          <!-- Doc Block 4 -->
+          <div id="doc-commands" class="docs-block">
+            <h3>🛠️ Useful package.json Commands</h3>
+            <p>Here are the project commands configured in the repository:</p>
+            <ul>
+              <li>
+                <code>npm run dev</code>: Opens a live developer bridge to the
+                platform capabilities.
+              </li>
+              <li>
+                <code>npm run dev:mock</code>: Performs UI-only smoke tests using
+                pre-recorded mock LLM completions (no quota cost).
+              </li>
+              <li>
+                <code>npm run validate</code>: Statically validates the bundle setup.
+              </li>
+              <li>
+                <code>npm run push</code>: Pushes local changes to the platform as a
+                working draft.
+              </li>
+            </ul>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <!-- Call To Action Section -->
+    <section class="cta-banner">
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-title">Ready to find your next research topic?</h2>
+          <p class="cta-desc">
+            Install LitFlow AI on the Anna AI Platform today and start exploring
+            academic papers with a gap-first methodology.
+          </p>
+          <a
+            href="https://anna.partners"
+            target="_blank"
+            rel="noreferrer"
+            class="btn btn-primary"
+            style="padding: 16px 36px; font-size: 16px"
+            >Launch LitFlow on Anna</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-logo">
+          <img
+            src="public/litflow-logo.png"
+            alt="LitFlow AI"
+            width="24"
+            height="24"
+          />
+          <span>LitFlow AI</span>
+        </div>
+        <p>&copy; 2026 LitFlow AI. Built as a native Anna App.</p>
+        <div class="footer-links">
+          <a
+            href="https://anna.partners"
+            target="_blank"
+            rel="noreferrer"
+            class="footer-link"
+            >Anna Platform</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Copy to Clipboard JS -->
+    <script>
+      function copyToClipboard(idOrText) {
+        let text = '';
+        const element = document.getElementById(idOrText);
+        if (element) {
+          text = element.innerText || element.textContent;
+        } else {
+          text = idOrText;
+        }
+
+        navigator.clipboard.writeText(text).then(
+          function () {
+            alert('Code snippet copied to clipboard!');
+          },
+          function (err) {
+            console.error('Could not copy text: ', err);
+          }
+        );
+      }
+
+      // Documentation sidebar scroll highlighting
+      window.addEventListener('DOMContentLoaded', () => {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            const id = entry.target.getAttribute('id');
+            const link = document.querySelector(`.docs-nav-link[href="#${id}"]`);
+            if (link) {
+              if (entry.isIntersecting) {
+                document
+                  .querySelectorAll('.docs-nav-link')
+                  .forEach((el) => el.classList.remove('active'));
+                link.classList.add('active');
+              }
+            }
+          });
+        }, {
+          rootMargin: '-30% 0px -70% 0px'
+        });
+
+        document.querySelectorAll('.docs-block').forEach((section) => {
+          observer.observe(section);
+        });
+      });
+    </script>
+  </body>
+</html>
