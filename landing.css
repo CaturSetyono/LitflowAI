@@ -151,6 +151,16 @@ a {
   font-size: 15px;
 }
 
+.btn-demo {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-demo svg {
+  flex: none;
+}
+
 /* Hero Section */
 .hero {
   padding: 140px 0 80px;
