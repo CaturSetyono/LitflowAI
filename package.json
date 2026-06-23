@@ -1,33 +1,17 @@
 {
   "name": "litflow-ai",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.1.0",
+  "description": "Anna App: an AI-native research copilot that turns a topic into a structured literature review focused on research gaps. Reaches the model via anna.llm.complete.",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@openrouter/ai-sdk-provider": "^0.4.5",
-    "ai": "^4.3.16",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.453.0",
-    "next": "^16.2.9",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
-    "react-markdown": "^9.0.1",
-    "sonner": "^1.7.4",
-    "tailwind-merge": "^2.6.0",
-    "zod": "^3.24.1"
+    "dev": "anna-app dev --slug litflow-ai",
+    "dev:mock": "anna-app dev --slug litflow-ai --mock-llm fixtures/happy-path.jsonl",
+    "dev:off": "anna-app dev --slug litflow-ai --no-llm",
+    "validate": "anna-app validate --strict",
+    "push": "anna-app apps push",
+    "cut": "anna-app apps cut 0.1.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.8",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "tailwindcss": "^4.1.8",
-    "typescript": "^5"
+    "@anna-ai/cli": "^0.1.30"
   }
 }
