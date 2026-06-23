@@ -1,0 +1,8 @@
+{
+  "$schema": "anna-app-identity/v1",
+  "host": "https://anna.partners",
+  "app_id": 109,
+  "slug": "litflow-ai",
+  "handle": "tyodev",
+  "first_published_at": "2026-06-23T02:31:58.592Z"
+}
