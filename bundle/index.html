@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LitFlow AI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <img src="litflow-logo.png" alt="LitFlow AI" width="40" height="40" />
+      <div>
+        <h1>LitFlow AI</h1>
+        <p class="muted">Discover what hasn't been researched yet.</p>
+      </div>
+    </header>
+
+    <!-- Topic entry -->
+    <section id="entry" class="entry">
+      <label for="topic" class="entry-label">Research topic</label>
+      <textarea
+        id="topic"
+        rows="2"
+        placeholder="e.g. AI in Sustainable Agriculture"
+      ></textarea>
+      <button id="start-btn" class="primary">Run literature review</button>
+      <p class="muted hint">
+        Runs a 5-stage pipeline: planning → sources (CrossRef + arXiv) →
+        insights → gap discovery → review. The model is reached via your Anna
+        account (<code>anna.llm.complete</code>) — no API key needed.
+      </p>
+    </section>
+
+    <!-- Workflow -->
+    <section id="workflow" class="workflow" hidden>
+      <div class="workflow-top">
+        <div>
+          <p class="muted kicker">Research topic</p>
+          <h2 id="active-topic"></h2>
+        </div>
+        <button id="reset-btn" class="ghost">↺ New topic</button>
+      </div>
+
+      <ol id="rail" class="rail"></ol>
+
+      <div id="steps" class="steps"></div>
+    </section>
+
+    <div id="toast" class="toast" hidden></div>
+
+    <!-- app.js is a native ES module; it imports the Anna App Runtime SDK and
+         the local pipeline modules. The bundle CSP is script-src 'self', which
+         allows these same-origin module scripts and blocks inline scripts. -->
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
