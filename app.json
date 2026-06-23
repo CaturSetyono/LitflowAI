@@ -1,0 +1,9 @@
+{
+  "slug": "litflow-ai",
+  "name": "LitFlow AI",
+  "version": "0.1.0",
+  "tagline": "Discover what hasn't been researched yet.",
+  "description": "LitFlow AI is an AI-native research copilot that turns a single research topic into a structured literature review — with a relentless focus on surfacing **research gaps**.\n\nInstead of answering *\"what has been researched?\"*, it answers *\"what should be researched next?\"*\n\n**The pipeline (5 guided stages)**\n\n1. **Planning** — expands the topic into research questions, keywords, and a search strategy.\n2. **Source Discovery** — pulls papers from CrossRef + arXiv (no key needed), dedupes and ranks them.\n3. **Insight Extraction** — one batched LLM call pulls findings, methodology, and limitations per paper.\n4. **Gap Discovery** — analyzes the corpus collectively to find themes, contradictions, under-explored areas, and concrete opportunities.\n5. **Literature Review** — synthesizes everything into a structured, citation-grounded Markdown review.\n\n**How it reaches the model**\n\nAll four AI stages call `anna.llm.complete` directly — no API key is stored; completions run on the user's Anna account and selected model.",
+  "category": "developer-tools",
+  "pricing_model": "free"
+}
