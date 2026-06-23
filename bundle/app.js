@@ -357,6 +357,7 @@ function start() {
   $("active-topic").textContent = topic;
   renderRail();
   renderSteps();
+  window.scrollTo(0, 0);
   run("plan");
 }
 
@@ -364,6 +365,7 @@ function reset() {
   $("workflow").hidden = true;
   $("entry").hidden = false;
   $("topic").value = "";
+  window.scrollTo(0, 0);
   $("topic").focus();
 }
 
