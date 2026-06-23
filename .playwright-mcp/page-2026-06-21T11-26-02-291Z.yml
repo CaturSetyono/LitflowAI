@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "Anna App Harness" [level=1] [ref=e3]
+    - generic [ref=e4]: starting…
+    - generic [ref=e5]: litflow-ai · view=default
+    - button "⏺ record" [ref=e6] [cursor=pointer]
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e10]: awaiting session…
+      - iframe [ref=e11]:
+        
+  - complementary [ref=e12]:
+    - heading "RPC log" [level=2] [ref=e13]

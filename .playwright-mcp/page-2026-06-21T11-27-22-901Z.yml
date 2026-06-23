@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "Anna App Harness" [level=1] [ref=e3]
+    - generic [ref=e4]: connected
+    - generic [ref=e5]: litflow-ai · view=default
+    - button "⏺ record" [ref=e6] [cursor=pointer]
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: /anna-apps/litflow-ai/dev/index.html?wid=cf5b7d30-9625-4007-bd02-1f731c4083d6&t=eyJhaWQiOjEsImF1ZCI6ImFubmEtYXBwLXdpbmRvdyIsImV4cCI6MTc4MjA0MTI3MiwiaWF0IjoxNzgyMDQxMjQyLCJpc3MiOiJhbm5hLWFwcC1ydW50aW1lLWxvY2FsIiwic2NvcGVzIjpbXSwic3ViIjoiMSIsInVpZCI6MSwidmlkIjoxLCJ3aWQiOiJjZjViN2QzMC05NjI1LTQwMDctYmQwMi0xZjczMWM0MDgzZDYifQ.GLEkgxkZ6R1681I0AnA7L0-Fzl0ZbJDJuStOITqb9cs
+        - generic [ref=e11]: 720×900
+      - iframe [ref=e12]:
+        - generic [active] [ref=f3e1]:
+          - banner [ref=f3e2]:
+            - img "LitFlow AI" [ref=f3e3]
+            - generic [ref=f3e4]:
+              - heading "LitFlow AI" [level=1] [ref=f3e5]
+              - paragraph [ref=f3e6]: Discover what hasn't been researched yet.
+          - generic [ref=f3e7]:
+            - generic [ref=f3e8]: Research topic
+            - textbox "Research topic" [ref=f3e9]:
+              - /placeholder: e.g. AI in Sustainable Agriculture
+            - button "Run literature review" [ref=f3e10] [cursor=pointer]
+            - paragraph [ref=f3e11]:
+              - text: "Runs a 5-stage pipeline: planning → sources (CrossRef + arXiv) → insights → gap discovery → review. The model is reached via your Anna account ("
+              - code [ref=f3e12]: anna.llm.complete
+              - text: ) — no API key needed.
+  - complementary [ref=e13]:
+    - heading "RPC log" [level=2] [ref=e14]
+    - generic [ref=e16]:
+      - text: 11:27:22.738
+      - generic [ref=e17]:
+        - text: "session created:"
+        - generic [ref=e18]: sess-2
+        - text: wid=cf5b7d30-9625-4007-bd02-1f731c4083d6

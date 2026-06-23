@@ -1,0 +1,304 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - heading "Anna App Harness" [level=1] [ref=e3]
+    - generic [ref=e4]: connected
+    - generic [ref=e5]: litflow-ai · view=default
+    - button "⏺ record" [ref=e6] [cursor=pointer]
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: /anna-apps/litflow-ai/dev/index.html?wid=cf5b7d30-9625-4007-bd02-1f731c4083d6&t=eyJhaWQiOjEsImF1ZCI6ImFubmEtYXBwLXdpbmRvdyIsImV4cCI6MTc4MjA0MTI3MiwiaWF0IjoxNzgyMDQxMjQyLCJpc3MiOiJhbm5hLWFwcC1ydW50aW1lLWxvY2FsIiwic2NvcGVzIjpbXSwic3ViIjoiMSIsInVpZCI6MSwidmlkIjoxLCJ3aWQiOiJjZjViN2QzMC05NjI1LTQwMDctYmQwMi0xZjczMWM0MDgzZDYifQ.GLEkgxkZ6R1681I0AnA7L0-Fzl0ZbJDJuStOITqb9cs
+        - generic [ref=e11]: 720×900
+      - iframe [active] [ref=e12]:
+        - generic [active] [ref=f3e1]:
+          - banner [ref=f3e2]:
+            - img "LitFlow AI" [ref=f3e3]
+            - generic [ref=f3e4]:
+              - heading "LitFlow AI" [level=1] [ref=f3e5]
+              - paragraph [ref=f3e6]: Discover what hasn't been researched yet.
+          - generic [ref=f3e13]:
+            - generic [ref=f3e14]:
+              - generic [ref=f3e15]:
+                - paragraph [ref=f3e16]: Research topic
+                - heading "AI in Sustainable Agriculture" [level=2] [ref=f3e17]
+              - button "↺ New topic" [ref=f3e18] [cursor=pointer]
+            - list [ref=f3e19]:
+              - listitem [ref=f3e20]: Planning
+              - listitem [ref=f3e22]: Sources
+              - listitem [ref=f3e24]: Insights
+              - listitem [ref=f3e26]: Gaps
+              - listitem [ref=f3e28]: Literature Review
+            - generic [ref=f3e30]:
+              - generic [ref=f3e31]:
+                - generic [ref=f3e32]:
+                  - generic [ref=f3e33]: "1"
+                  - generic [ref=f3e34]:
+                    - generic [ref=f3e35]: Research Planning
+                    - generic [ref=f3e36]: Research questions, keywords, and search strategy
+                  - generic [ref=f3e37]: Done
+                - generic [ref=f3e38]:
+                  - generic [ref=f3e39]: Research questions
+                  - list [ref=f3e40]:
+                    - listitem [ref=f3e41]: How is the topic currently studied?
+                    - listitem [ref=f3e42]: What methods dominate?
+                    - listitem [ref=f3e43]: Where are the gaps?
+                    - listitem [ref=f3e44]: What combinations are unexplored?
+                  - generic [ref=f3e45]: Keywords
+                  - generic [ref=f3e46]:
+                    - generic [ref=f3e47]: mock keyword one
+                    - generic [ref=f3e48]: mock keyword two
+                    - generic [ref=f3e49]: mock keyword three
+                    - generic [ref=f3e50]: mock keyword four
+                    - generic [ref=f3e51]: mock keyword five
+                    - generic [ref=f3e52]: mock keyword six
+                  - generic [ref=f3e53]: Search strategy
+                  - paragraph [ref=f3e54]: "Mock search strategy returned by the dev fixture. Switch to `anna-app dev` (real bridge) for genuine model output."
+              - generic [ref=f3e55]:
+                - generic [ref=f3e56]:
+                  - generic [ref=f3e57]: "2"
+                  - generic [ref=f3e58]:
+                    - generic [ref=f3e59]: Source Discovery
+                    - generic [ref=f3e60]: Relevant papers from CrossRef & arXiv
+                  - generic [ref=f3e61]: Done
+                - paragraph [ref=f3e63]: 4 papers found and ranked.
+              - generic [ref=f3e65]:
+                - generic [ref=f3e66]: "3"
+                - generic [ref=f3e67]:
+                  - generic [ref=f3e68]: Insight Extraction
+                  - generic [ref=f3e69]: Key findings, methodology, and limitations per paper
+                - generic [ref=f3e70]: Done
+              - generic [ref=f3e71]:
+                - generic [ref=f3e72]:
+                  - generic [ref=f3e73]: "4"
+                  - generic [ref=f3e74]:
+                    - generic [ref=f3e75]: Gap Discovery
+                    - generic [ref=f3e76]: Themes, gaps, contradictions, and research opportunities
+                  - generic [ref=f3e77]: Done
+                - generic [ref=f3e79]:
+                  - generic [ref=f3e80]:
+                    - heading "Themes" [level=4] [ref=f3e81]
+                    - list [ref=f3e82]:
+                      - listitem [ref=f3e83]:
+                        - strong [ref=f3e84]: Mock Theme
+                        - text: — A placeholder theme from the mock fixture.
+                  - generic [ref=f3e85]:
+                    - heading "Over-researched" [level=4] [ref=f3e86]
+                    - list [ref=f3e87]:
+                      - listitem [ref=f3e88]: Mock over-researched area
+                  - generic [ref=f3e89]:
+                    - heading "Under-explored" [level=4] [ref=f3e90]
+                    - list [ref=f3e91]:
+                      - listitem [ref=f3e92]: Mock under-explored area
+                  - generic [ref=f3e93]:
+                    - heading "Contradictions" [level=4] [ref=f3e94]
+                    - list [ref=f3e95]:
+                      - listitem [ref=f3e96]: Mock contradiction
+                  - generic [ref=f3e97]:
+                    - heading "Missing combinations" [level=4] [ref=f3e98]
+                    - list [ref=f3e99]:
+                      - listitem [ref=f3e100]: Mock missing combination
+                  - generic [ref=f3e101]:
+                    - heading "Research opportunities" [level=4] [ref=f3e102]
+                    - generic [ref=f3e103]:
+                      - generic [ref=f3e104]: Mock opportunity
+                      - generic [ref=f3e105]: Returned by the dev fixture; not real analysis.
+              - generic [ref=f3e106]:
+                - generic [ref=f3e107]:
+                  - generic [ref=f3e108]: "5"
+                  - generic [ref=f3e109]:
+                    - generic [ref=f3e110]: Literature Review
+                    - generic [ref=f3e111]: A structured, citation-grounded review
+                  - generic [ref=f3e112]: Done
+                - paragraph [ref=f3e115]:
+                  - text: "{\"researchQuestions\":[\"How is the topic currently studied?\",\"What methods dominate?\",\"Where are the gaps?\",\"What combinations are unexplored?\"],\"keywords\":[\"mock keyword one\",\"mock keyword two\",\"mock keyword three\",\"mock keyword four\",\"mock keyword five\",\"mock keyword six\"],\"searchStrategy\":\"Mock search strategy returned by the dev fixture. Switch to"
+                  - code [ref=f3e116]: anna-app dev
+                  - text: "(real bridge) for genuine model output.\",\"insights\":[],\"themes\":[{\"name\":\"Mock Theme\",\"description\":\"A placeholder theme from the mock fixture.\",\"paperIds\":[]}],\"overResearched\":[\"Mock over-researched area\"],\"underExplored\":[\"Mock under-explored area\"],\"contradictions\":[\"Mock contradiction\"],\"missingCombinations\":[\"Mock missing combination\"],\"opportunities\":[{\"title\":\"Mock opportunity\",\"rationale\":\"Returned by the dev fixture; not real analysis.\",\"expectedContributions\":[]}]}"
+  - complementary [ref=e13]:
+    - heading "RPC log" [level=2] [ref=e14]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - text: 11:27:22.738
+        - generic [ref=e17]:
+          - text: "session created:"
+          - generic [ref=e18]: sess-2
+          - text: wid=cf5b7d30-9625-4007-bd02-1f731c4083d6
+      - generic [ref=e19]:
+        - text: 11:27:22.846
+        - generic [ref=e20]:
+          - text: → req
+          - generic [ref=e21]: window.hello
+          - text: "{}"
+      - generic [ref=e22]:
+        - text: 11:27:22.855
+        - generic [ref=e23]:
+          - text: ← res ok
+          - generic [ref=e24]: window.hello
+          - text: "{\"capabilities\":{\"host_api_version\":\"0.1.0\",\"scopes\":[\"llm.complete\",\"window.set_title\",\"window.*\"]},\"view_meta\":{\"name\":\"main\",\"title\":\"LitFlow AI\",\"entry\":\"index.html\",\"min_size\":{\"w\":520,\"h\":640},\"default_size\":{\"w\":720,\"h\":900},\"max_size\":null,\"resizable\":true,\"movable\":true,\"single_instance\":true},\"entry_payload\":{},\"runtime_state\":{},\"geometry\":{},\"is_resume\":false}"
+      - generic [ref=e25]:
+        - text: 11:27:22.869
+        - generic [ref=e26]:
+          - text: → req
+          - generic [ref=e27]: window.ready
+          - text: "{}"
+      - generic [ref=e28]:
+        - text: 11:27:22.870
+        - generic [ref=e29]:
+          - text: → req
+          - generic [ref=e30]: window.set_title
+          - text: "{\"title\":\"LitFlow AI\"}"
+      - generic [ref=e31]:
+        - text: 11:27:22.882
+        - generic [ref=e32]:
+          - text: ← res ok
+          - generic [ref=e33]: window.ready
+          - text: "{\"ok\":true}"
+      - generic [ref=e34]:
+        - text: 11:27:22.883
+        - generic [ref=e35]:
+          - text: ← res ok
+          - generic [ref=e36]: window.set_title
+          - text: "{\"title\":\"LitFlow AI\"}"
+      - generic [ref=e37]:
+        - text: 11:27:32.868
+        - generic [ref=e38]:
+          - text: → req
+          - generic [ref=e39]: window.ready
+          - text: "{}"
+      - generic [ref=e40]:
+        - text: 11:27:32.879
+        - generic [ref=e41]:
+          - text: ← res ok
+          - generic [ref=e42]: window.ready
+          - text: "{\"ok\":true}"
+      - generic [ref=e43]:
+        - text: 11:27:42.865
+        - generic [ref=e44]:
+          - text: → req
+          - generic [ref=e45]: window.ready
+          - text: "{}"
+      - generic [ref=e46]:
+        - text: 11:27:42.873
+        - generic [ref=e47]:
+          - text: ← res ok
+          - generic [ref=e48]: window.ready
+          - text: "{\"ok\":true}"
+      - generic [ref=e49]:
+        - text: 11:27:52.860
+        - generic [ref=e50]:
+          - text: → req
+          - generic [ref=e51]: window.ready
+          - text: "{}"
+      - generic [ref=e52]:
+        - text: 11:27:52.870
+        - generic [ref=e53]:
+          - text: ← res ok
+          - generic [ref=e54]: window.ready
+          - text: "{\"ok\":true}"
+      - generic [ref=e55]:
+        - text: 11:28:02.862
+        - generic [ref=e56]:
+          - text: → req
+          - generic [ref=e57]: window.ready
+          - text: "{}"
+      - generic [ref=e58]:
+        - text: 11:28:02.871
+        - generic [ref=e59]:
+          - text: ← res ok
+          - generic [ref=e60]: window.ready
+          - text: "{\"ok\":true}"
+      - generic [ref=e61]:
+        - text: 11:28:12.868
+        - generic [ref=e62]:
+          - text: → req
+          - generic [ref=e63]: window.ready
+          - text: "{}"
+      - generic [ref=e64]:
+        - text: 11:28:12.879
+        - generic [ref=e65]:
+          - text: ← res ok
+          - generic [ref=e66]: window.ready
+          - text: "{\"ok\":true}"
+      - generic [ref=e67]:
+        - text: 11:28:22.869
+        - generic [ref=e68]:
+          - text: → req
+          - generic [ref=e69]: window.ready
+          - text: "{}"
+      - generic [ref=e70]:
+        - text: 11:28:22.878
+        - generic [ref=e71]:
+          - text: ← res ok
+          - generic [ref=e72]: window.ready
+          - text: "{\"ok\":true}"
+      - generic [ref=e73]:
+        - text: 11:28:32.858
+        - generic [ref=e74]:
+          - text: → req
+          - generic [ref=e75]: window.ready
+          - text: "{}"
+      - generic [ref=e76]:
+        - text: 11:28:32.869
+        - generic [ref=e77]:
+          - text: ← res ok
+          - generic [ref=e78]: window.ready
+          - text: "{\"ok\":true}"
+      - generic [ref=e79]:
+        - text: 11:28:42.863
+        - generic [ref=e80]:
+          - text: → req
+          - generic [ref=e81]: window.ready
+          - text: "{}"
+      - generic [ref=e82]:
+        - text: 11:28:42.873
+        - generic [ref=e83]:
+          - text: ← res ok
+          - generic [ref=e84]: window.ready
+          - text: "{\"ok\":true}"
+      - generic [ref=e85]:
+        - text: 11:28:48.789
+        - generic [ref=e86]:
+          - text: → req
+          - generic [ref=e87]: llm.complete
+          - text: "{\"messages\":[{\"role\":\"user\",\"content\":{\"type\":\"text\",\"text\":\"Research topic: \\\"AI in Sustainable Agriculture\\\"\"}}],\"systemPrompt\":\"You are a precise research assistant. Always answer in English. Output must be a single valid JSON value with no markdown fences and no commentary. You generate a research plan for a given topic. Return JSON of shape: {\\\"researchQuestions\\\": string[], \\\"keywords\\\": string[], \\\"searchStrategy\\\": string}. Provide 4-6 focused research questions, 6-10 search keywords/phrases, and a concise 2-3 sentence search strategy.\",\"maxTokens\":1024,\"temperature\":0.4}"
+      - generic [ref=e88]:
+        - text: 11:28:48.809
+        - generic [ref=e89]:
+          - text: ← res ok
+          - generic [ref=e90]: llm.complete
+          - text: "{\"role\":\"assistant\",\"content\":{\"type\":\"text\",\"text\":\"{\\\"researchQuestions\\\":[\\\"How is the topic currently studied?\\\",\\\"What methods dominate?\\\",\\\"Where are the gaps?\\\",\\\"What combinations are unexplored?\\\"],\\\"keywords\\\":[\\\"mock keyword one\\\",\\\"mock keyword two\\\",\\\"mock keyword three\\\",\\\"mock keyword four\\\",\\\"mock keyword five\\\",\\\"mock keyword six\\\"],\\\"searchStrategy\\\":\\\"Mock search strategy returned by the dev fixture. Switch to `anna-app dev` (real bridge) for genuine model output.\\\",\\\"insights\\\":[],\\\"themes\\\":[{\\\"name\\\":\\\"Mock Theme\\\",\\\"description\\\":\\\"A placeholder theme from the mock fixture.\\\",\\\"paperIds\\\":[]}],\\\"overResearched\\\":[\\\"Mock over-researched area\\\"],\\\"underExplored\\\":[\\\"Mock under-explored area\\\"],\\\"contradictions\\\":[\\\"Mock contradiction\\\"],\\\"missingCombinations\\\":[\\\"Mock missing combination\\\"],\\\"opportunities\\\":[{\\\"title\\\":\\\"Mock opportunity\\\",\\\"rationale\\\":\\\"Returned by the dev fixture; not real analysis.\\\",\\\"expectedContributions\\\":[]}]}\"},\"model\":\"mock\",\"stopReason\":\"endTurn\",\"usage\":{\"inputTokens\":12,\"outputTokens\":64,\"totalTokens\":76}}"
+      - generic [ref=e91]:
+        - text: 11:28:50.000
+        - generic [ref=e92]:
+          - text: → req
+          - generic [ref=e93]: llm.complete
+          - text: "{\"messages\":[{\"role\":\"user\",\"content\":{\"type\":\"text\",\"text\":\"Topic: \\\"AI in Sustainable Agriculture\\\"\\n\\nAnalyze every paper below and return one insight object per paper.\\n\\n### Paper cr-10.3390/ai7010012\\nTitle: Artificial Intelligence and Machine Learning for Smart and Sustainable Agriculture\\nYear: 2026\\nAbstract: Agriculture is entering a profound period of transformation, driven by the accelerating integration of artificial intelligence (AI), machine learning, computer vision, autonomous sensing, and data-driven decision support [...]\\n\\n### Paper cr-10.62311/nesx/978553\\nTitle: Food Security and Sustainable Agriculture with Quantum AI\\nYear: 2025\\nAbstract: Abstract: As the global population grows and climate change intensifies, ensuring food security and sustainable agriculture has become a critical challenge. Traditional farming methods and classical AI-driven solutions often struggle to optimize food production, manage resources efficiently, and predict agricultural risks accurately. \\\"Food Security and Sustainable Agriculture with Quantum AI\\\" explores how Quantum AI—an advanced fusion of quantum computing and artificial intelligence—is revolutionizing modern agriculture. By leveraging quantum-enhanced machine learning, predictive analytics, and optimization algorithms, Quantum AI is enhancing precision farming, mitigating climate change impacts, improving supply chain logistics, and enabling real-time risk assessment in agriculture. The book delves into the role of Quantum AI in soil health analysis, water resource management, autonomous farming, and climate-resilient crop breeding, ensuring sustainability while maximizing yield and efficiency. It also examines Quantum AI’s impact on global food security policies, trade networks, and financial risk assessment, demonstrating how governments, agribusinesses, and researchers can leverage these innovations to create resilient and equitable food systems. Through expert insights, case studies, and cutting-edge research, this book provides a comprehensive roadmap for integrating Quantum AI into agriculture, shaping a future where food production is more efficient, adaptive, and capable of sustainably feeding the world’s growing population. Keywords: Quantum AI, food security, sustainable agriculture, quantum computing, artificial intelligence in farming, precision agriculture, quantum machine learning, predictive analytics in agriculture, climate-resilient farming, smart irrigation, crop optimization, agricultural sustainability, soil health monitoring, AI-driven supply chains, quantum-enhanced logistics, risk assessment in agriculture, climate modeling, regenerative agriculture, carbon-smart farming, AI in agribusiness, global food policy, food supply chain optimization, financial risk modeling in agriculture, quantum-enhanced trade networks, autonomous farming, AI-powered drones, quantum computing in resource management, quantum-driven pest control, blockchain for food security, digital agriculture transformation, quantum AI policy frameworks.\\n\\n### Paper cr-10.62311/nesx/97953\\nTitle: Quantum AI for Food Security and Sustainable Agriculture\\nYear: 2025\\nAbstract: Abstract: The increasing global demand for food, coupled with the challenges of climate change, resource scarcity, and supply chain inefficiencies, necessitates transformative solutions in agriculture and food security. Traditional AI-driven agricultural systems, while effective, often struggle with processing vast, complex, and interdependent variables such as weather patterns, soil quality, pest outbreaks, and logistics optimization. Quantum AI, which merges the computational power of quantum computing and artificial intelligence, offers unprecedented capabilities in predictive analytics, real-time decision-making, and optimization for sustainable farming. This chapter explores Quantum AI’s applications in precision agriculture, climate-resilient farming, pest and disease prediction, and smart food supply chains, demonstrating how quantum-enhanced models optimize irrigation, enhance crop yield forecasts, and improve food distribution efficiency. Additionally, it highlights the challenges, ethical considerations, and future potential of Quantum AI in ensuring global food security while promoting environmental sustainability. By integrating Quantum AI with IoT, blockchain, and remote sensing technologies, this chapter outlines a strategic roadmap for transforming agriculture into a highly efficient, adaptive, and climate-resilient system, paving the way for a food-secure and ecologically sustainable future. Keywords: Quantum AI, food security, sustainable agriculture, precision farming, climate-resilient farming, quantum computing in agriculture, smart food supply chains, predictive analytics, crop yield optimization, pest and disease prediction, quantum-enhanced logistics, irrigation management, AI-driven agriculture, blockchain for food traceability, sustainable resource management, quantum optimization algorithms\\n\\n### Paper cr-10.62311/nesx/rb-978-81-985979-5-3\\nTitle: Food Security and Sustainable Agriculture with Quantum AI\\nYear: 2025\\nAbstract: Abstract: Food security is an intertwined problem of biophysical variability, market coordination, infrastructure constraints, and governance choices that shape who can access safe, nutritious food at stable prices. Quantum AI, understood as the principled integration of quantum-inspired optimization and quantum-ready computing workflows with statistical and machine-learning analytics, offers a new decision repertoire for agricultural systems that are both data-rich and uncertainty-heavy. This book develops an academic framework for using Quantum AI to improve agricultural productivity, climate resilience, supply-chain reliability, and equity in food access, while preserving accountability and ecological sustainability. It begins with foundations that formalize uncertainty, measurement limits, and research design for credible claims in agro-food systems. It then advances statistical modeling for explanation and causal inference to evaluate interventions such as irrigation scheduling, input subsidies, storage expansion, and risk-transfer instruments. Machine learning is treated as prediction under shift, emphasizing generalization across regions and seasons, and trustworthiness through calibration, interpretability, and human oversight. The engineering chapter operationalizes scalable analytics, reproducibility, and MLOps as governance controls rather than purely technical conveniences. The final chapter synthesizes sectoral horizons for farms, markets, nutrition programs, and policy institutions across South Asia, Europe, Africa, and the Americas, producing actionable research outputs including risk registers, evaluation protocols, decision templates, and governance artifacts. Keywords food security, sustainable agriculture, quantum AI, quantum-inspired optimization, uncertainty management, research design, causal inference, statistical modeling, predictive analytics, trustworthy machine learning, climate resilience, yield risk, supply-chain reliability, reproducibility, MLOps, data stewardship, governance, equity, nutrition systems\"}}],\"systemPrompt\":\"You are a precise research assistant. Always answer in English. Output must be a single valid JSON value with no markdown fences and no commentary. You extract structured insights from academic abstracts. Return JSON of shape: {\\\"insights\\\": [{\\\"id\\\": string, \\\"keyFindings\\\": string[], \\\"methodology\\\": string, \\\"contributions\\\": string[], \\\"limitations\\\": string[]}]}. The id MUST match the paper id given. Base everything strictly on the abstract; if information is missing, infer conservatively or use an empty array. Keep each item to one short sentence.\",\"maxTokens\":4096,\"temperature\":0.4}"
+      - generic [ref=e94]:
+        - text: 11:28:50.019
+        - generic [ref=e95]:
+          - text: ← res ok
+          - generic [ref=e96]: llm.complete
+          - text: "{\"role\":\"assistant\",\"content\":{\"type\":\"text\",\"text\":\"{\\\"researchQuestions\\\":[\\\"How is the topic currently studied?\\\",\\\"What methods dominate?\\\",\\\"Where are the gaps?\\\",\\\"What combinations are unexplored?\\\"],\\\"keywords\\\":[\\\"mock keyword one\\\",\\\"mock keyword two\\\",\\\"mock keyword three\\\",\\\"mock keyword four\\\",\\\"mock keyword five\\\",\\\"mock keyword six\\\"],\\\"searchStrategy\\\":\\\"Mock search strategy returned by the dev fixture. Switch to `anna-app dev` (real bridge) for genuine model output.\\\",\\\"insights\\\":[],\\\"themes\\\":[{\\\"name\\\":\\\"Mock Theme\\\",\\\"description\\\":\\\"A placeholder theme from the mock fixture.\\\",\\\"paperIds\\\":[]}],\\\"overResearched\\\":[\\\"Mock over-researched area\\\"],\\\"underExplored\\\":[\\\"Mock under-explored area\\\"],\\\"contradictions\\\":[\\\"Mock contradiction\\\"],\\\"missingCombinations\\\":[\\\"Mock missing combination\\\"],\\\"opportunities\\\":[{\\\"title\\\":\\\"Mock opportunity\\\",\\\"rationale\\\":\\\"Returned by the dev fixture; not real analysis.\\\",\\\"expectedContributions\\\":[]}]}\"},\"model\":\"mock\",\"stopReason\":\"endTurn\",\"usage\":{\"inputTokens\":12,\"outputTokens\":64,\"totalTokens\":76}}"
+      - generic [ref=e97]:
+        - text: 11:28:50.028
+        - generic [ref=e98]:
+          - text: → req
+          - generic [ref=e99]: llm.complete
+          - text: "{\"messages\":[{\"role\":\"user\",\"content\":{\"type\":\"text\",\"text\":\"Topic: \\\"AI in Sustainable Agriculture\\\"\\n\\nCorpus of extracted insights:\\n\\n\"}}],\"systemPrompt\":\"You are a precise research assistant. Always answer in English. Output must be a single valid JSON value with no markdown fences and no commentary. You are the Gap Discovery Engine: your job is to find what has NOT been researched yet. Analyze the corpus collectively (not paper by paper). Return JSON of shape: {\\\"themes\\\": [{\\\"name\\\": string, \\\"description\\\": string, \\\"paperIds\\\": string[]}], \\\"overResearched\\\": string[], \\\"underExplored\\\": string[], \\\"contradictions\\\": string[], \\\"missingCombinations\\\": string[], \\\"opportunities\\\": [{\\\"title\\\": string, \\\"rationale\\\": string, \\\"expectedContributions\\\": string[]}]}. Provide 3-5 themes (cluster the papers, fill paperIds with matching ids), and 2-5 items for each gap array. Opportunities must be concrete, novel research directions derived from the gaps.\",\"maxTokens\":2048,\"temperature\":0.4}"
+      - generic [ref=e100]:
+        - text: 11:28:50.041
+        - generic [ref=e101]:
+          - text: ← res ok
+          - generic [ref=e102]: llm.complete
+          - text: "{\"role\":\"assistant\",\"content\":{\"type\":\"text\",\"text\":\"{\\\"researchQuestions\\\":[\\\"How is the topic currently studied?\\\",\\\"What methods dominate?\\\",\\\"Where are the gaps?\\\",\\\"What combinations are unexplored?\\\"],\\\"keywords\\\":[\\\"mock keyword one\\\",\\\"mock keyword two\\\",\\\"mock keyword three\\\",\\\"mock keyword four\\\",\\\"mock keyword five\\\",\\\"mock keyword six\\\"],\\\"searchStrategy\\\":\\\"Mock search strategy returned by the dev fixture. Switch to `anna-app dev` (real bridge) for genuine model output.\\\",\\\"insights\\\":[],\\\"themes\\\":[{\\\"name\\\":\\\"Mock Theme\\\",\\\"description\\\":\\\"A placeholder theme from the mock fixture.\\\",\\\"paperIds\\\":[]}],\\\"overResearched\\\":[\\\"Mock over-researched area\\\"],\\\"underExplored\\\":[\\\"Mock under-explored area\\\"],\\\"contradictions\\\":[\\\"Mock contradiction\\\"],\\\"missingCombinations\\\":[\\\"Mock missing combination\\\"],\\\"opportunities\\\":[{\\\"title\\\":\\\"Mock opportunity\\\",\\\"rationale\\\":\\\"Returned by the dev fixture; not real analysis.\\\",\\\"expectedContributions\\\":[]}]}\"},\"model\":\"mock\",\"stopReason\":\"endTurn\",\"usage\":{\"inputTokens\":12,\"outputTokens\":64,\"totalTokens\":76}}"
+      - generic [ref=e103]:
+        - text: 11:28:50.091
+        - generic [ref=e104]:
+          - text: → req
+          - generic [ref=e105]: llm.complete
+          - text: "{\"messages\":[{\"role\":\"user\",\"content\":{\"type\":\"text\",\"text\":\"Topic: \\\"AI in Sustainable Agriculture\\\"\\n\\nResearch questions:\\n- How is the topic currently studied?\\n- What methods dominate?\\n- Where are the gaps?\\n- What combinations are unexplored?\\n\\nThemes: Mock Theme\\nOver-researched: Mock over-researched area\\nUnder-explored: Mock under-explored area\\nContradictions: Mock contradiction\\nMissing combinations: Mock missing combination\\nOpportunities: Mock opportunity\\n\\nReferences:\\n[1] Arslan Munir (2026). Artificial Intelligence and Machine Learning for Smart and Sustainable Agriculture.\\n[2] Murali Krishna Pasupuleti (2025). Food Security and Sustainable Agriculture with Quantum AI.\\n[3] Murali Krishna Pasupuleti (2025). Quantum AI for Food Security and Sustainable Agriculture.\\n[4] Murali Krishna Pasupuleti (2025). Food Security and Sustainable Agriculture with Quantum AI.\"}}],\"systemPrompt\":\"You are an academic writing assistant. Write in formal academic English using GitHub-flavored Markdown. Produce a structured literature review with exactly these second-level headings in order: ## Introduction, ## Existing Research, ## Research Trends, ## Research Gaps, ## Future Research Directions, ## Conclusion. Reference papers inline as [n] using the provided reference list. Be specific, grounded in the supplied material, and emphasize the discovered research gaps and opportunities.\",\"maxTokens\":4096,\"temperature\":0.5}"
+      - generic [ref=e106]:
+        - text: 11:28:50.103
+        - generic [ref=e107]:
+          - text: ← res ok
+          - generic [ref=e108]: llm.complete
+          - text: "{\"role\":\"assistant\",\"content\":{\"type\":\"text\",\"text\":\"{\\\"researchQuestions\\\":[\\\"How is the topic currently studied?\\\",\\\"What methods dominate?\\\",\\\"Where are the gaps?\\\",\\\"What combinations are unexplored?\\\"],\\\"keywords\\\":[\\\"mock keyword one\\\",\\\"mock keyword two\\\",\\\"mock keyword three\\\",\\\"mock keyword four\\\",\\\"mock keyword five\\\",\\\"mock keyword six\\\"],\\\"searchStrategy\\\":\\\"Mock search strategy returned by the dev fixture. Switch to `anna-app dev` (real bridge) for genuine model output.\\\",\\\"insights\\\":[],\\\"themes\\\":[{\\\"name\\\":\\\"Mock Theme\\\",\\\"description\\\":\\\"A placeholder theme from the mock fixture.\\\",\\\"paperIds\\\":[]}],\\\"overResearched\\\":[\\\"Mock over-researched area\\\"],\\\"underExplored\\\":[\\\"Mock under-explored area\\\"],\\\"contradictions\\\":[\\\"Mock contradiction\\\"],\\\"missingCombinations\\\":[\\\"Mock missing combination\\\"],\\\"opportunities\\\":[{\\\"title\\\":\\\"Mock opportunity\\\",\\\"rationale\\\":\\\"Returned by the dev fixture; not real analysis.\\\",\\\"expectedContributions\\\":[]}]}\"},\"model\":\"mock\",\"stopReason\":\"endTurn\",\"usage\":{\"inputTokens\":12,\"outputTokens\":64,\"totalTokens\":76}}"
